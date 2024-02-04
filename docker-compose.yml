@@ -1,0 +1,8 @@
+version: '3'
+services:
+  task:
+    build: .
+    command: python task_file.py
+  test:
+    build: .
+    command: python -m unittest tes_file.py
